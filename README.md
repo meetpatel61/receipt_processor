@@ -1,21 +1,22 @@
-Receipt Processor
+# Receipt Processor
 
 This project is a simple Receipt Processor web service written in Go. The service provides a REST API for submitting receipts, calculating points based on specific rules, and retrieving the awarded points.
 
-Project Structure
+## Project Structure
 
-	•	main.go: Contains the main application code, including API handlers and point calculation logic.
-	•	go.mod: Defines the module, Go version, and dependencies.
-	•	go.sum: Verifies the integrity of dependencies with cryptographic hashes.
+- **main.go**: Contains the main application code, including API handlers and point calculation logic.
+- **go.mod**: Defines the module, Go version, and dependencies.
+- **go.sum**: Verifies the integrity of dependencies with cryptographic hashes.
 
-Prerequisites
+## Prerequisites
 
-	•	Go version 1.23.2 or higher installed on your system.
+- Go version 1.23.2 or higher installed on your system.
 
-Getting Started
+## Getting Started
 
-1. Clone the Repository
+### 1. Clone the Repository
 
+```bash
 git clone https://github.com/your-username/receipt_processor.git
 cd receipt_processor
 
